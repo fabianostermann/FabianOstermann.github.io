@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>Personal random news redirect</title>
+<script type="text/javascript">
+    var sites = [
+        'https://filmspiegel-essen.de/filme/',
+        'https://schauburg-kino.com/programm',
+        'https://www1.wdr.de/mediathek/audio/wdr3/wdr3-jazz/giant-steps-in-jazz/index.html',
+    ];
+
+    function openRandomSite() {
+        var i = parseInt(Math.random() * sites.length);
+        location.href = sites[i];
+    }
+    openRandomSite()
+</script>
+</head>
+<body>
+<p>This page needs JavaScript to perform random redirect.</p>
+</body>
+</html>
